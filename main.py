@@ -103,10 +103,10 @@ font_size = 32
 font = ImageFont.truetype(font_path, font_size)
 
 # FTP 서버 정보
-FTP_SERVER = "79webhard.com"
-FTP_USERNAME = "비둘기"
-FTP_PASSWORD = "adminqwe1@32317J"
-FTP_UPLOAD_PATH = "/판도라/촬영/호식이 두마리 치킨의 Vlog/AI 관찰 카메라"
+FTP_SERVER = "서버 주소 입력"
+FTP_USERNAME = "아이디 입력"
+FTP_PASSWORD = "패스워드 입력"
+FTP_UPLOAD_PATH = "서버 경로 입력"
 
 # 웹캠 초기화
 cap = cv2.VideoCapture(0)
